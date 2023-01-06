@@ -28,7 +28,7 @@ const Home = () => {
           <div className="content">
             <h1 className='desc'>Welcome to George's projects!!</h1>
 
-            <span className='desc'>made in React.js, express, and Azure Databases, hosted on firebase</span>
+            <span className='desc'>made in React.js, express, and Azure Databases, hosted on firebases</span>
 
             <div className='feat'><h2>Featured Project</h2> </div>
 
