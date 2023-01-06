@@ -26,7 +26,9 @@ function About() {
 
         </div>
 
-
+        <div className="aboutme">
+          this is an example of about me
+        </div>
 
       </div>
     </>
