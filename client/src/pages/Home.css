@@ -1,0 +1,244 @@
+
+.nav{
+    position: fixed;
+    width: 100%;
+}
+
+.home{
+    overflow: auto;
+
+}
+
+.homeContainer{
+    display: flex;
+
+}
+
+h1{
+    color: white;
+    outline: black;
+}
+
+span{
+    color: white;
+    outline: black;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+}
+
+.homeLogo{
+    display: flex;
+
+}
+
+.content{
+    background-color: white;
+    border-radius: 5%;
+}
+
+.desc{
+    color: grey;
+    outline: white;
+    outline-width: 2px;
+}
+
+.descriptions{
+    color: white;
+}
+
+.feat{
+    
+    color: black;
+    background-color: lightblue;
+}
+
+.homeContainer{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.backgroundImage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+.feat{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin: 0px;
+}
+
+
+.pathNames {
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: baseline;
+}
+
+.links {
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+
+}
+
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+
+}
+
+
+
+
+h3 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projectsButton {
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid;
+    color: red;
+    font-weight: 300;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projectsButton:hover {
+    text-decoration: none;
+    background-color: gray;
+    border: 1px solid;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    transition: all 0.5s;
+    
+}
+
+.featured{
+    display: flex;
+
+}
+
+@media (max-width: 800px) {
+    .content{
+        border-radius: 0%;
+    }
+
+    .featured{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px;
+        margin-top: 50px;
+    }
+
+    .h3{
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 12px;
+        
+    }
+}
+
+.imageContainer{
+    flex: 1;
+    width: 400px;
+    height: 600px;
+}
+
+.image{
+    width: 400px;
+    height: 600px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.featuredDescContainer{
+    flex: 2;
+}
+
+
+
+.featTitle{
+    color: grey;
+    outline: white;
+    outline-width: 2px;
+}
+
+.featuredDesc{
+    padding: 50px;
+}
+
+.featDesc{
+    color: grey;
+    outline: white;
+    outline-width: 2px;
+    text-align: justify;
+
+}

@@ -1,0 +1,41 @@
+.app{
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 1024px;
+
+        .link,
+        .links{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        //NAVBAR
+        .navbar{
+            display: flex;
+            background-color: red;
+            .logoSection{
+                flex: 1;
+                .links{
+                    gap: 3px;
+                    h3{
+                        color: white;
+                        font-size: 32;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        
+                    }
+
+                    .logo{
+                        background-color: red;
+                    }
+                }
+
+            }
+
+            .pathNames{
+                flex: 3;
+            }
+        }
+
+    }
+}

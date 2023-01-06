@@ -1,0 +1,138 @@
+.navbar {
+    overflow: auto;
+    display: flex;
+    background-color: gray;
+}
+
+.link,
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logoSection {
+    flex: 1;
+
+
+}
+
+
+h2 {
+    margin: 0px;
+}
+
+
+.pathNames {
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: centre;
+    list-style: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    transition: all 0.5s;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    transition: all 0.5s;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.links {
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.mobileButton {
+    display: none;
+}
+
+
+
+@media (max-width: 800px) {
+    .mobileButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hamburger {
+        content: url("../../public/images/hamburger.png");
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .hamburger-cross {
+        content: url("../../public/images/hamburger-cross.png");
+        width: 50px;
+        height: 50px;
+    }
+
+    .pathNames {
+        gap: 10px;
+        border-radius: 11%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+        top: 40px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .pathnames-active {
+        gap: 10px;
+        border-radius: 11%;
+        list-style: none;
+        background: darkblue;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        width: 90%;
+        height: 10vh;
+        position: absolute;
+        opacity: 1;
+        top: 40px;
+        transition: all 0.5s ease;
+    }
+
+    /*change navbar style to quick menu, hamburger to X menu */
+
+
+}
