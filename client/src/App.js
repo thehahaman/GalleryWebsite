@@ -30,7 +30,7 @@ function ErrorBoundary() {
   console.error(error);
 
   return (
-    <div className='error'>Youre not supposed to be here!
+    <div className='error'>You're not supposed to be here!
       <Link className='goBack' to="/">go back</Link>
     </div>
   );
