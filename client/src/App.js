@@ -8,7 +8,7 @@ import {
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Photos from './pages/Photos';
+import Projects from './pages/Projects';
 
 
 const router = createBrowserRouter([{
@@ -20,8 +20,8 @@ const router = createBrowserRouter([{
   element: <About />,
   errorElement: <ErrorBoundary />
 }, {
-  path: "/photos",
-  element: <Photos />,
+  path: "/Projects",
+  element: <Projects />,
   errorElement: <ErrorBoundary />
 }])
 

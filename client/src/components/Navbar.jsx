@@ -25,7 +25,7 @@ function Navbar() {
                 <ul className={burger ? "pathnames-active" : "pathNames"}>
                     <li className='nav-item'><Link className="link" to="/"><h3>Home</h3></Link> </li>
                     <li className='nav-item'><Link className="link" to="/about"><h3>About</h3></Link></li>
-                    <li className='nav-item'><Link className="link" to="/photos"><h3>Projects</h3></Link></li>
+                    <li className='nav-item'><Link className="link" to="/projects"><h3>Projects</h3></Link></li>
                 </ul>
             </div>
             <div className="mobileButton" onClick={burgerClick}>

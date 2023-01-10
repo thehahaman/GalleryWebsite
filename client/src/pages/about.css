@@ -67,6 +67,9 @@
 .aboutme .shortFacts {
     text-align: justify;
     color: black;
+    display: flex;
+    flex-direction: column;
+ 
 }
 
 .me {
@@ -87,6 +90,7 @@
     flex: 2;
     align-items: baseline;
     justify-content: center;
+    gap: 10px;
 }
 
 .aboutme ul {
