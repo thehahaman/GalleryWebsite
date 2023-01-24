@@ -35,7 +35,7 @@ function About() {
           </p>
 
           <div className='shortFacts'>
-            <p><b>Favourite stack</b>: FERN</p>
+            <p><b>Favourite stack</b>: ASP.NET MVC</p>
             <p><b>Favourite snack</b>: M&Ms</p>
             <p><b>Location</b>: Calgary, Alberta</p>
             <p><b>Language preference</b>: Java</p>

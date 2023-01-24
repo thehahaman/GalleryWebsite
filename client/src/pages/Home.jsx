@@ -56,37 +56,41 @@ const Home = () => {
 
             <div className='feat'><h2>Featured Project</h2> </div>
 
-            {projectList.forEach((p) => {
-              if (p.Featured) {
-                featuredProject = p;
+            {projectList.map((project) => {
+              if (project.Featured) {
+                featuredProject = project;
+                return (
+                  <div className="featured">
+                    <div className="imageContainer">
+                      <img className='image' src={`images/${featuredProject.Picture}`} alt={featuredProject.Picture} />
+                    </div>
+
+                    <div className="featuredDescContainer">
+                      <div className="featuredTitle">
+                        <h1 className='featTitle'>
+                          {featuredProject.Name}
+                        </h1>
+                      </div>
+
+                      <div className="featuredDesc">
+                        <p className='featDesc'>
+                          {featuredProject.Description}
+                        </p>
+                      </div>
+
+                    </div>
+
+
+
+                  </div>
+                );
               }
+              return (<></>);
             })
             }
 
-            <div className="featured">
-              <div className="imageContainer">
-                <img className='image' src={`images/${featuredProject.Picture}`} alt={featuredProject.Picture} />
-              </div>
-
-              <div className="featuredDescContainer">
-                <div className="featuredTitle">
-                  <h1 className='featTitle'>
-                    {featuredProject.Name}
-                  </h1>
-                </div>
-
-                <div className="featuredDesc">
-                  <p className='featDesc'>
-                    {featuredProject.Description}  
-                  </p>
-                </div>
-
-              </div>
 
 
-
-            </div>
-          
 
             <div className="projectsButtonContainer">
               <Link className='projectsButton' to='/projects'> All Projects</Link>
